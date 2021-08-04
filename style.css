@@ -1,12 +1,21 @@
 .navbarGrid{
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: 40px 40px;
-
+    grid-template-columns: 100px 100px 100px  100px 650px ;
+    grid-template-rows: 70px;
+    background-color: #373F51;
+    align-items: center;
+    justify-items: right;
+    font-size: 150%;
+    padding-left: 50px;
 }
 .myName{
    color: #F0EFF4;
    background-color: #373F51;
+   text-align: center;
+}
+.otherElements{
+    color: #F0EFF4;
+    text-align: center;
 }
 
 .my-Picture{
@@ -21,6 +30,10 @@
     left: 80%;
     bottom: 10%;
 }
+.active{
+    color: #F0EFF4;
+}
+
 .topnav {
     background-color: #373F51;
     overflow: hidden;
@@ -56,6 +69,4 @@ h3{
     color: white;
     text-align: center;
 }
-.topnav a.active{
-    background-color: #8A9EA7;
-}
+
