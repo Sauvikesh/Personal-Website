@@ -1,24 +1,34 @@
-.navbarGrid{
+.navbarGrid {
     display: grid;
-    grid-template-columns: 100px 100px 100px  100px 650px ;
+    grid-template-columns: 100px 100px 100px 100px 650px ;
     grid-template-rows: 70px;
-    background-color: #373F51;
+    background-color: #242326;
     align-items: center;
-    justify-items: right;
+    justify-items: center;
     font-size: 150%;
     padding-left: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.myName{
-   color: #F0EFF4;
-   background-color: #373F51;
-   text-align: center;
-}
-.otherElements{
+.otherElements {
     color: #F0EFF4;
     text-align: center;
 }
+.otherElements:hover {
+    color: #AD343E;
+}
+.myName {
+   color: #F0EFF4;
+  
+   text-align: center;
+   justify-self: right;
 
-.my-Picture{
+}
+.active {
+    color: #F0EFF4;
+    text-decoration: #AD343E underline;
+    text-underline-position: under;
+}
+.my-Picture {
     border-radius: 50%;
     height: 200px;
     width: auot;
@@ -30,43 +40,31 @@
     left: 80%;
     bottom: 10%;
 }
-.active{
-    color: #F0EFF4;
-}
-
-.topnav {
-    background-color: #373F51;
-    overflow: hidden;
-    background-size: 0px;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
-}
-.topnav a {
-    float:left;
-    display: block;
-    color: #F0EFF4;
-    text-align: center;
-    padding: 14px 40px;
+a {
     text-decoration: none;
-    font-size: 18px;
-
-}
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
 }
 h1{
     color: #F0EFF4;
-    text-align: center;
-}
+    text-align: left;
+    padding-left: 650px;
+    font-weight: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
 h2{
-    color: #F0EFF4;
+    color: #AD343E;
     text-align: center;
+    padding-left: 500px;
+    width: 400px;
+    font-weight: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 h3{
-    color: white;
+    color: #F0EFF4;
     text-align: center;
+    padding-left: 500px;
+    width: 400px;
+    font-weight: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
