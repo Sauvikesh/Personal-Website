@@ -72,7 +72,7 @@
 .projectsGrid{
     display: grid;
     grid-template-columns: 600px 600px ;
-    grid-template-rows: 200px 500px 500px;
+    grid-template-rows: 200px 400px 400px;
     justify-items: center;
     padding-left: 100px;
 
@@ -117,7 +117,7 @@
 }
 .bsImageDes{
     grid-area: bsDes;
-
+    width: 400px;
 }
 .snake{
     margin-top: 20px;
@@ -131,6 +131,8 @@
 }
 .snakeImageDes{
     grid-area:snakeDes;
+    width: 400px;
+
 }
 .description{
     color: #F0EFF4;
