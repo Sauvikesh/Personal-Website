@@ -41,12 +41,39 @@
     bottom: 10%;
 }
 
+#greeting{
+    color: #F0EFF4;
+    text-align: left;
+    padding-left: 650px;
+    font-weight: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.nameAndQuestions{
+    color: #AD343E;
+    text-align: center;
+    padding-left: 500px;
+    width: 400px;
+    font-weight: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.answers{
+    color: #F0EFF4;
+    text-align: center;
+    padding-left: 500px;
+    width: 400px;
+    font-weight: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
 .projectsGrid{
     display: grid;
-    grid-template-columns: 450px 450px ;
+    grid-template-columns: 600px 600px ;
     grid-template-rows: 200px 500px 500px;
     justify-items: center;
-    align-items: center;
     padding-left: 100px;
 
     grid-template-areas:
@@ -55,7 +82,7 @@
     "snakeImage  snakeDes";
 }
 .projectsHeader{
-    padding-top: 100px;
+    padding-top: 20px;
     grid-area: header;
     text-align: center;
     align-self: center;
@@ -73,11 +100,12 @@
     font-weight: normal;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: none;
-    padding-left: 0;
+    
 }
 
 
 .bs{
+    margin-top: 20px;
     width: 300px;
     height: 350px;
     border: 3px solid #AD343E;
@@ -85,7 +113,11 @@
 .bsImgae{
     grid-area:bsImage;
 }
+.bsImageDes{
+    grid-area: bsDes;
+}
 .snake{
+    margin-top: 20px;
     width: 300px;
     height: 350px;
     border: 3px solid #AD343E;
@@ -93,35 +125,20 @@
 .snakeImage{
     grid-area:snakeImage;
 }
+.snakeImageDes{
+    grid-area:snakeDes;
+}
+.description{
+    color: #F0EFF4;
+    text-align: center;
+    font-weight: normal;
+
+
+}
 
 
 
 
 a {
     text-decoration: none;
-}
-h1{
-    color: #F0EFF4;
-    text-align: left;
-    padding-left: 650px;
-    font-weight: normal;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-h2{
-    color: #AD343E;
-    text-align: center;
-    padding-left: 500px;
-    width: 400px;
-    font-weight: normal;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-h3{
-    color: #F0EFF4;
-    text-align: center;
-    padding-left: 500px;
-    width: 400px;
-    font-weight: normal;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
