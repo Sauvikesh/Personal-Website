@@ -73,15 +73,16 @@
 .projectsGrid{
     display: grid;
     grid-template-columns: 600px 600px ;
-    grid-template-rows: 200px 400px 400px 400px;
+    grid-template-rows: 200px 400px 400px 400px 400px;
     justify-items: center;
     padding-left: 100px;
 
     grid-template-areas:
     "header header "
-    "bsImage  bsDes"
-    "snakeImage  snakeDes"
-    "ticTacToeImage ticTacToeDes";
+    "bsImage bsDes"
+    "snakeImage snakeDes"
+    "ticTacToeImage ticTacToeDes"
+    "connectNImage connectNDes";
 }
 .projectsHeader{
     padding-top: 20px;
@@ -147,6 +148,21 @@
 }
 .ticTacToeDes{
     grid-area: ticTacToeDes;
+    width: 400px;
+    
+}
+.connectN{
+    margin-top: 20px;
+    margin-right: 60px;
+    width: auto;
+    height: 350px;
+    border: 3px solid #AD343E;
+}
+.connectNImage{
+    grid-area:connectNImage;
+}
+.connectNDes{
+    grid-area: connectNDes;
     width: 400px;
     
 }
