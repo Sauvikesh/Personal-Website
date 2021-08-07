@@ -44,8 +44,9 @@
 
 #greeting{
     color: #F0EFF4;
-    text-align: left;
-    padding-left: 650px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 100px;
     font-weight: normal;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -61,7 +62,7 @@
 }
 .answers{
     color: #F0EFF4;
-    text-align: center;
+    text-align: left;
     padding-left: 500px;
     width: 400px;
     font-weight: normal;
