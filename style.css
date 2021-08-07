@@ -91,6 +91,7 @@
     text-align: center;
     align-self: center;
     justify-self: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .heading{
     color: #F0EFF4;
@@ -122,6 +123,8 @@
 .bsImageDes{
     grid-area: bsDes;
     width: 400px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 .snake{
     margin-top: 20px;
@@ -136,6 +139,7 @@
 .snakeImageDes{
     grid-area:snakeDes;
     width: 400px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .ticTacToe{
     margin-top: 20px;
@@ -150,7 +154,7 @@
 .ticTacToeDes{
     grid-area: ticTacToeDes;
     width: 400px;
-    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .connectN{
     margin-top: 20px;
@@ -165,7 +169,7 @@
 .connectNDes{
     grid-area: connectNDes;
     width: 400px;
-    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .description{
     color: #F0EFF4;
@@ -174,10 +178,6 @@
 
     line-height: 30px;
 }
-
-
-
-
 a {
     text-decoration: none;
 }
